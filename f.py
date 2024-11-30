@@ -3,10 +3,10 @@ import logging
 import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
-from flashh import TOKEN  # Import the TOKEN variable
+  # Import the TOKEN variable
 
 ADMIN_ID = 1808161060  # Your admin ID
-
+TOKEN = "6268103157:AAF95dww9kSZRMDYQdut4fBBTdRu329nTxw"
 difference_value =
 # Set up logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
